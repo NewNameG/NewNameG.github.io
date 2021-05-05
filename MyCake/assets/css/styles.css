@@ -1,0 +1,71 @@
+/* Подключение шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Patrick+Hand&display=swap');
+
+/* Спецификации */
+body {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 400;
+    background-color: #EBDCB2;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-reset {
+
+}
+
+/* Header */
+.header {
+    padding-top: 33px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__body_logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    padding: 2px 6px 8px 5px;
+    background-color: #C9A66B;
+    color: #661E1C;
+    border-radius: 12px;
+    margin-right: 30px;
+}
+
+.header__logo_text {
+    font-size: 38px;
+    letter-spacing: 7px;
+    color: #661E1C;
+}
+
+.header__menu a {
+    color: #661E1C;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-right: 52px;
+    transition: all 0.2s;
+}
+
+.header__menu a:hover {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #AF4425;
+}
+
+.header__menu a:last-child {
+    margin-right: 0;
+}
