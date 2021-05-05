@@ -1,5 +1,5 @@
 /* Подключение шрифтов */
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&family=Patrick+Hand&display=swap');
 
 /* Спецификации */
 body {
@@ -28,6 +28,15 @@ a {
     outline: none;
     border: none;
     cursor: pointer;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color:#661E1C;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 /* Header */
@@ -169,4 +178,87 @@ a {
 
 .products_right {
     max-width: 520px;
+}
+
+/* AboutUs */
+.aboutUs {
+    padding-bottom: 97px;
+}
+
+.aboutUs__wrapper {
+    margin-top: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutUs_left {
+    width: 393px;
+}
+
+.aboutUs_left h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #661E1C;
+    margin-bottom: 26px;
+}
+
+.aboutUs_left p {
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    color: #AF4425;
+}
+
+.aboutUs_right {
+    width: 479px;
+}
+
+.aboutUs_right h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #661E1C;
+    margin-bottom: 26px;
+}
+
+.aboutUs_right_element_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.aboutUs_right_element_text p {
+    font-size: 20px;
+    color: #661E1C;
+    text-transform: uppercase;
+}
+
+.aboutUs_right_element_text span {
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #661E1C;
+}
+
+.aboutUs_right_element {
+    margin-bottom: 58px;
+}
+
+.aboutUs_right_element:last-child {
+    margin-bottom: 0;
+}
+
+.progress {
+    width: 100%;
+    height: 6px;
+    background-color: #AF4425;
+    color: #AF4425;
+}
+
+progress::-webkit-progress-value {
+    background: #AF4425;
+}
+
+progress::-webkit-progress-bar {
+    background: #C9A66B;
 }
