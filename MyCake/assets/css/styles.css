@@ -321,3 +321,45 @@ progress::-webkit-progress-bar {
     line-height: 32px;
     letter-spacing: 1px;
 }
+
+/* Footer */
+.footer {
+    background-color: #661E1C;
+    padding: 44px 0px;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_left {
+    width: 470px;
+}
+
+.footer_left_element {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left_element:last-child {
+    margin-top: 41px;
+}
+
+.footer_left a {
+    font-size: 40px;
+    color: #C9A66B;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer_right {
+    display: grid; 
+    align-items: center;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 60px;
+}
