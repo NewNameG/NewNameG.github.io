@@ -7,6 +7,7 @@
     <title>MyCake</title>
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/tablet.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -23,8 +24,17 @@
                 <a href="#aboutUs">About us</a>
                 <a href="#contacts">Contacts</a>
             </menu>
+            <div class="header__burger">
+                <span></span>
+            </div>
         </div>
     </header>
+    <menu class="adaptive-menu">
+        <a href="#">Main</a>
+        <a href="#products">Products</a>
+        <a href="#aboutUs">About us</a>
+        <a href="#contacts">Contacts</a>
+    </menu>
     <main>
         <section class="products" id="products">
             <div class="container products_container">
@@ -39,7 +49,7 @@
                     </div>
                     <div class="products_left_element">
                         <h2 class="products_left_title center">Order our products right now and gety free home delivery</h2>
-                        <a href="#popup" class="button">Contact us</a>
+                        <a href="#popup" class="button popup-link">Contact us</a>
                     </div>
                 </div>
                 <div class="products_right">
@@ -102,7 +112,7 @@
                     </div>
                     <div class="contacts_right">
                         <h2>Order our products right now and gety free home delivery</h2>
-                        <a href="#popup" class="button">Contact us</a>
+                        <a href="#popup" class="button popup-link">Contact us</a>
                     </div>
                 </div>
             </div>
