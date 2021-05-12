@@ -20,6 +20,7 @@ a {
 
 .button {
     display: block;
+    text-align: center;
     text-transform: uppercase;
     font-size: 40px;
     letter-spacing: 7px;
@@ -1084,6 +1085,7 @@ progress::-webkit-progress-bar {
     outline: none;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 
 }
@@ -1107,4 +1109,63 @@ progress::-webkit-progress-bar {
     .aboutUs_left {
         width: 300px;
     }
+
+    /* contacts */
+.contacts__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
+.contacts_left {
+
+}
+
+.contacts_left h2 {
+    font-size: 20px;
+    color: #661E1C;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.contacts_left_element {
+    display: flex;
+    align-items: center;
+}
+
+.contacts_left_element:last-child {
+    margin-top: 18px;
+}
+
+.contacts_left_element:nth-child(2) img {
+    margin-right: 8px;
+}
+
+.contacts_left_element:nth-child(3) img {
+    margin-right: 12px;
+}
+
+.contacts_left_element a {
+    font-size: 20px;
+    color: #AF4425;
+}
+
+.contacts_right {
+    width: 250px;
+}
+
+.contacts_right h2 {
+    font-size: 22px;
+    color: #661E1C;
+    text-align: center;
+    margin-bottom: 14px;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+.aboutUs_right {
+    width: 250px;
+}
+    
 }
